@@ -55,14 +55,3 @@ VALUES (1, 1, 2, 1);
 INSERT INTO ProductInventory (ID,ProductID,Amount,WarehouseID)
 VALUES (2, 2, 5, 2);
 
--- Populate test data
-
-INSERT INTO Countries (ID,Name)
-	VALUES (1, 'Country1');
-INSERT INTO Countries (ID,Name)
-	VALUES (2, 'Country2');
-
-INSERT INTO ProductInventory (ID,ProductName,WarehouseAmount,WarehouseName,WarehouseAddress,CountryID)
-	VALUES (1, 'AwersomeProduct', 2, 'Warehouse-1', 'City-1, Street-1',1);
-INSERT INTO ProductInventory (ID,ProductName,WarehouseAmount,WarehouseName,WarehouseAddress,CountryID)
-	VALUES (2, 'AwersomeProduct', 5, 'Warehouse-2', 'City-2, Street-2',2);
